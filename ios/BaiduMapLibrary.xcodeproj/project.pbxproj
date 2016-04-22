@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97655A0D1CC09052003ABC90 /* BaiduMapLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97655A0C1CC09052003ABC90 /* BaiduMapLibrary.h */; };
+		97655A0F1CC09052003ABC90 /* BaiduMapLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 97655A0E1CC09052003ABC90 /* BaiduMapLibrary.m */; };
+		97655A251CC0917C003ABC90 /* UIImage+XG.m in Sources */ = {isa = PBXBuildFile; fileRef = 97655A241CC0917C003ABC90 /* UIImage+XG.m */; };
+		97655A271CC09318003ABC90 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A261CC09318003ABC90 /* CoreLocation.framework */; };
+		97655A291CC09321003ABC90 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A281CC09321003ABC90 /* QuartzCore.framework */; };
+		97655A2B1CC09327003ABC90 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A2A1CC09327003ABC90 /* OpenGLES.framework */; };
+		97655A2D1CC0932D003ABC90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A2C1CC0932D003ABC90 /* SystemConfiguration.framework */; };
+		97655A2F1CC09338003ABC90 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A2E1CC09338003ABC90 /* CoreTelephony.framework */; };
+		97655A331CC0934F003ABC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A321CC0934F003ABC90 /* CoreGraphics.framework */; };
+		97655A351CC0935A003ABC90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97655A341CC0935A003ABC90 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97655A071CC09052003ABC90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				97655A0D1CC09052003ABC90 /* BaiduMapLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97655A091CC09052003ABC90 /* libBaiduMapLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaiduMapLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97655A0C1CC09052003ABC90 /* BaiduMapLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapLibrary.h; sourceTree = "<group>"; };
+		97655A0E1CC09052003ABC90 /* BaiduMapLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapLibrary.m; sourceTree = "<group>"; };
+		97655A231CC0917C003ABC90 /* UIImage+XG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XG.h"; sourceTree = "<group>"; };
+		97655A241CC0917C003ABC90 /* UIImage+XG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XG.m"; sourceTree = "<group>"; };
+		97655A261CC09318003ABC90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		97655A281CC09321003ABC90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		97655A2A1CC09327003ABC90 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		97655A2C1CC0932D003ABC90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		97655A2E1CC09338003ABC90 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		97655A321CC0934F003ABC90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97655A341CC0935A003ABC90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97655A061CC09052003ABC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97655A351CC0935A003ABC90 /* Security.framework in Frameworks */,
+				97655A331CC0934F003ABC90 /* CoreGraphics.framework in Frameworks */,
+				97655A2F1CC09338003ABC90 /* CoreTelephony.framework in Frameworks */,
+				97655A2D1CC0932D003ABC90 /* SystemConfiguration.framework in Frameworks */,
+				97655A2B1CC09327003ABC90 /* OpenGLES.framework in Frameworks */,
+				97655A291CC09321003ABC90 /* QuartzCore.framework in Frameworks */,
+				97655A271CC09318003ABC90 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97655A001CC09052003ABC90 = {
+			isa = PBXGroup;
+			children = (
+				97655A341CC0935A003ABC90 /* Security.framework */,
+				97655A321CC0934F003ABC90 /* CoreGraphics.framework */,
+				97655A2E1CC09338003ABC90 /* CoreTelephony.framework */,
+				97655A2C1CC0932D003ABC90 /* SystemConfiguration.framework */,
+				97655A2A1CC09327003ABC90 /* OpenGLES.framework */,
+				97655A281CC09321003ABC90 /* QuartzCore.framework */,
+				97655A261CC09318003ABC90 /* CoreLocation.framework */,
+				97655A151CC090C6003ABC90 /* FrameWork */,
+				97655A0B1CC09052003ABC90 /* BaiduMapLibrary */,
+				97655A0A1CC09052003ABC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97655A0A1CC09052003ABC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97655A091CC09052003ABC90 /* libBaiduMapLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97655A0B1CC09052003ABC90 /* BaiduMapLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				97655A0C1CC09052003ABC90 /* BaiduMapLibrary.h */,
+				97655A0E1CC09052003ABC90 /* BaiduMapLibrary.m */,
+			);
+			path = BaiduMapLibrary;
+			sourceTree = "<group>";
+		};
+		97655A151CC090C6003ABC90 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				97655A231CC0917C003ABC90 /* UIImage+XG.h */,
+				97655A241CC0917C003ABC90 /* UIImage+XG.m */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97655A081CC09052003ABC90 /* BaiduMapLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97655A121CC09052003ABC90 /* Build configuration list for PBXNativeTarget "BaiduMapLibrary" */;
+			buildPhases = (
+				97655A051CC09052003ABC90 /* Sources */,
+				97655A061CC09052003ABC90 /* Frameworks */,
+				97655A071CC09052003ABC90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapLibrary;
+			productName = BaiduMapLibrary;
+			productReference = 97655A091CC09052003ABC90 /* libBaiduMapLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97655A011CC09052003ABC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rover;
+				TargetAttributes = {
+					97655A081CC09052003ABC90 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 97655A041CC09052003ABC90 /* Build configuration list for PBXProject "BaiduMapLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97655A001CC09052003ABC90;
+			productRefGroup = 97655A0A1CC09052003ABC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97655A081CC09052003ABC90 /* BaiduMapLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97655A051CC09052003ABC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97655A251CC0917C003ABC90 /* UIImage+XG.m in Sources */,
+				97655A0F1CC09052003ABC90 /* BaiduMapLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97655A101CC09052003ABC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97655A111CC09052003ABC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97655A131CC09052003ABC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**",
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97655A141CC09052003ABC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**",
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97655A041CC09052003ABC90 /* Build configuration list for PBXProject "BaiduMapLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97655A101CC09052003ABC90 /* Debug */,
+				97655A111CC09052003ABC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97655A121CC09052003ABC90 /* Build configuration list for PBXNativeTarget "BaiduMapLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97655A131CC09052003ABC90 /* Debug */,
+				97655A141CC09052003ABC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97655A011CC09052003ABC90 /* Project object */;
+}

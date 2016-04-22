@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <!-- 图形类型 -->
+        <attr name="image_type">
+            <!-- 圆形 -->
+            <enum name="circle" value="0" />
+            <!-- 圆角 -->
+            <enum name="fillet" value="1" />
+            <!-- 方角，正常状态 -->
+            <enum name="normal" value="2" />
+        </attr>
+        <!-- 圆角图片角度半径 -->
+        <attr name="angle_radii" format="dimension" />
+    </declare-styleable>
+</resources>

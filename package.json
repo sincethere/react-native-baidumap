@@ -1,10 +1,10 @@
 {
-  "name": "react-native-baidumap",
+  "name": "react-native-baidumapkit",
   "version": "1.0.0",
-  "description": "react-native-baidumap",
+  "description": "react-native-baidumapkit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",

@@ -10,31 +10,31 @@
 
 ## Installation
 
-First you need to install react-native-baidumap:
+First you need to install react-native-baidumapkit:
 
 ```javascript
-$ npm install react-native-baidumap --save
+$ npm install react-native-baidumapkit --save
 ```
 
 **Add Configuration**
 link
 ```javascript 
 ($ npm install rnpm --global)
-$ rnpm link react-native-baidumap
+$ rnpm link react-native-baidumapkit
 ```
 
 If the link fails, manually add
 
 settings.gradle
 ```java
-include ':react-native-baidumap'
-project(':react-native-baidumap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-baidumap/android')
+include ':react-native-baidumapkit'
+project(':react-native-baidumapkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-baidumapkit/android')
 ```
 build.gradle
 ```java
  dependencies {
     ...
-    compile project(':react-native-baidumap')
+    compile project(':react-native-baidumapkit')
 }
 ```
 MainActivity
@@ -58,8 +58,8 @@ import com.bee.baidumapview.BaiduMapModuleReactPackage;
 ## Example
 
 ```js
-import BDMapModule from ('react-native-baidumap/BDMapModule');
-import BDMapView from ('react-native-baidumap');
+import BDMapModule from ('react-native-baidumapkit/BDMapModule');
+import BDMapView from ('react-native-baidumapkit');
 
 <BDMapView style={styles.mapViewStyle}
                        ref={'locationMap'}

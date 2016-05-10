@@ -1,11 +1,11 @@
 # react-native-baidumap
 
 
-![android](https://github.com/honaf/react-native-baidumap/raw/master/android_map.png) 
-![ios](https://github.com/honaf/react-native-baidumap/raw/master/ios_map.png) 
+![android](https://github.com/sincethere/react-native-baidumap/raw/master/android_map.png) 
+![ios](https://github.com/sincethere/react-native-baidumap/raw/master/ios_map.png) 
 
-![android](https://github.com/honaf/react-native-baidumap/raw/master/android_map2.png)
-![ios](https://github.com/honaf/react-native-baidumap/raw/master/ios_map2.png)
+![android](https://github.com/sincethere/react-native-baidumap/raw/master/android_map2.png)
+![ios](https://github.com/sincethere/react-native-baidumap/raw/master/ios_map2.png)
 
 
 ## Installation

@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidumapkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-native-baidumapkit",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/honaf/react-native-baidumap.git"
+    "url": "git+https://github.com/sincethere/react-native-baidumap.git"
   },
   "keywords": [
     "react-native",
@@ -18,7 +18,7 @@
   "author": "honaf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/honaf/react-native-baidumap/issues"
+    "url": "https://github.com/sincethere/react-native-baidumap/issues"
   },
-  "homepage": "https://github.com/honaf/react-native-baidumap#readme"
+  "homepage": "https://github.com/sincethere/react-native-baidumap#readme"
 }
